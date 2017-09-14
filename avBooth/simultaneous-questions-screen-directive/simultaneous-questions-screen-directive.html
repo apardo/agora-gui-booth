@@ -31,11 +31,11 @@
 </nav>
 
 <div class="wrapper-unfixed">
-  <div class="navbar-unfixed-top text-left">
+  <div class="navbar-unfixed-top text-center">
     <div class="container">
       <div class="hidden unfixed-top-height"></div>
       <h1>{{election.title}}</h1>
-      <p
+      <p class="text-left"
         ng-if="election.description"
         class="description"
         ng-bind-html="election.description | addTargetBlank">
